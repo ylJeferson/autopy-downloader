@@ -12,7 +12,7 @@ def getArguments(argv):
     arg_url = ""
     arg_xpath = ""
     arg_help = """{0}
-    -hd <True or False>
+    -i <True or False>
     -s <site>
     -x <xpath>""".format(argv[0])
     
