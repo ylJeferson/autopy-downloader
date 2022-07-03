@@ -20,12 +20,20 @@
  - `-s` Url do site que se deseja acessar.
  - `-x` xpath do elemento que você deseja clicar.
  
-<details>
+<details style="width:100%">
   <summary>Exemplo</summary>
+  <br>
   
-`python "autopy-downloader.py" -s "https://www.google.com/chrome/thank-you.html?statcb=1&standalone=1&platform=win&defaultbrowser=1" -x "/html/body/div[3]/section[1]/div/div/div/div/div[4]/p/a"`
+  `python "autopy-downloader.py" -s "https://www.google.com/chrome/thank-you.html?statcb=1&standalone=1&platform=win&defaultbrowser=1" -x "/html/body/div[3]/section[1]/div/div/div/div/div[4]/p/a"`
+
+  <div align="center">
+    <img width="=500px" height="250px" src="https://user-images.githubusercontent.com/27925751/177045575-578a5676-8b9e-4535-96b4-6397690c7fe5.png" alt="Baixando o chrome">
+    <img width="=500px" height="250px" src="https://user-images.githubusercontent.com/27925751/177045641-e57a376b-cd13-4d5c-b80b-f9a8f1728d00.png" alt="Baixando o chrome">
+  </div>
 </details>
 
 _Recomendação: Utilizar XPath completo._ <br>
-_Nota: O programa tem a intenção de automatizar tarefas no navegador. Em suma ele entra em um site e clica nos elementos indicados pelo XPath._
+_Nota: O programa tem a intenção de automatizar tarefas no navegador._ <br>
+_Nota: Em suma ele entra em um site e clica nos elementos indicados pelo XPath que você digitar._ <br>
+_Nota: Para clicar em mais de uma elemento, separe o XPath pr vírgula. E ele irá clicar na sequência digitada._ <br>
 
