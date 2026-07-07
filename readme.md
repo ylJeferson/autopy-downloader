@@ -17,8 +17,8 @@
 
 `python "autopy-downloader.py" -s url -x "xpath1,xpath2,xpath3" -i "False"` <br>
  - `-i` Execução dos comandos em segundo plano. _Padrão: True - Navegador em segundo plano_
- - `-s` Url do site que se deseja acessar.
- - `-x` xpath do elemento que você deseja clicar.
+ - `-s` Informe a URL principal ou de download direto do programa.
+ - `-x` Informe a sequência de xpath para iniciar o downlod.
  
 <details style="width:100%">
   <summary>Exemplo</summary>
